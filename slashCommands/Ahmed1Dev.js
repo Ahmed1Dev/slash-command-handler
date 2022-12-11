@@ -13,7 +13,7 @@ module.exports = {
           let Github = new ActionRowBuilder().addComponents(
             new ButtonBuilder()
               .setLabel("Github")
-              .setURL("https://github.com/Ahmed1Dev/Slash-Commands")
+              .setURL("https://github.com/Ahmed1Dev/slash-command-handler")
               .setStyle(ButtonStyle.Link),
           )
           let Replit = new ActionRowBuilder().addComponents(
@@ -26,7 +26,7 @@ module.exports = {
         .setTitle("**Tokyo Studio | Slash Command Handler**")
         .setColor("Blue")
         .addFields([
-            { name: "Slash Command Handler", value: "Project on Github [Slash Command Handler](https://github.com/Ahmed1Dev/Slash-Commands) \n Project on Replit [Slash Command Handler](https://replit.com/@tokyo-studio/Slash-Command-Handler)" },
+            { name: "Slash Command Handler", value: "Project on Github [Slash Command Handler](https://github.com/Ahmed1Dev/slash-command-handler) \n Project on Replit [Slash Command Handler](https://replit.com/@tokyo-studio/Slash-Command-Handler)" },
             { name: "Support Server", value: "You Have Problem Contact [Support Server](https://discord.gg/XBwBEg8fVA)" }
         ]);
         interaction.reply({ content: "Thanks For Using `Ahmed1Dev Slash Command Handler`v1",embeds: [tokyo], components: [Support, Github, Replit] })
